@@ -1,0 +1,69 @@
+/*
+* Sydney Kwiatkowski
+* 1/4/19 
+* Mitochondrial Disease
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* Body attributes here */
+
+* { margin: 0;
+    padding: 0;}
+
+body {width: 90%;
+      margin: auto;
+      background-color: palegreen} 
+
+/* structure of heading with bottom line */
+
+header { font-family: serif;
+        font-size: 200; 
+        text-align: center;
+        border-bottom: 4px solid black;}
+
+/* font and set up of all titles */
+
+h2 {font-family: serif;
+      font-size: 120%;
+      margin: 0.5em;}
+
+/* font and set up of all paragraphs */
+
+p { font-family: monospace;
+     font-size: 100%; 
+     text-align: left;
+     margin: 0.5em;}
+
+/* image set up and float */
+
+#mitochondrial { float: right;
+                 border: thick solid black;
+                 margin: 20px}
+.imgrow { width: 200px; height: 200px;
+                 border: thick solid black;
+                 margin: 20px;}
+#walk { width: 200px; height: 200px;
+                 float: left;
+                 border: thick solid black;
+                 margin: 20px;}
+
+/* font and set up of bottom line and text */
+
+footer {border-top: 4px solid black;
+        clear: both;
+        font-family: serif;
+        font-size: 85%; 
+        text-align: left;
+        margin: 0.5em;}
+
+/* font and set up of header */
+
+h3 { font-family: serif;
+      font-size: 85%;
+      margin: 0.5em;
+      text-align: right;}
